@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*,*::before,*:after{
+    box-sizing: inherit;
+}
+
+
+
+
+#container{
+    border: none;
+    width:420px;
+    height: 200px;
+    border-radius: 5px;
+    margin: auto;
+    background:lavender;
+   
+
+    
+}
+
+
+#input{
+    
+    height: 50%;
+    padding: 10px 20px 20px 20px;
+    background: #8a2be2;
+    border-radius:5px;
+    
+    
+}
+input{
+    
+    cursor: not-allowed;
+    pointer-events: none;
+
+}
+
+h3{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0px;
+    height: 50%;
+    padding: 20px 20px 20px 20px;
+    font-size: 26px;
+   
+
+}
+
+button,input{
+    border-radius: 5px;
+    outline: hidden;
+    border: hidden;
+
+}
+
+button{
+    background-color: orange;
+    border: hidden;
+    
+    
+}
+
+button:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+img{
+
+    
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: 5px;
+    top:115px;
+    border: none;
+    background-color: #8a2be2;
+    outline: #8a2be2;
+    border-radius: 25px;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
